@@ -1,0 +1,158 @@
+/*.custom-navbar{*/
+/*  background-color: coral;*/
+/*}*/
+/*.custom-navbar .navbar-brand{*/
+/*  color: white;*/
+/*}*/
+/* Navbar background color */
+/*.navbar-inverse {*/
+/*  background-color: coral;*/
+/*  border: none;*/
+/*}*/
+/*.navbar-inverse .navbar-brand {*/
+/*  color: #f0f0f0; !* Off-white color *!*/
+/*}*/
+
+/*!* Inactive links (off-white font) *!*/
+/*.navbar-inverse .navbar-nav>li>a {*/
+/*  color: #f0f0f0; !* Off-white color *!*/
+/*}*/
+
+/*!* Active link (white font) *!*/
+/*.navbar-inverse .navbar-nav>li.active>a,*/
+/*.navbar-inverse .navbar-nav>li.active>a:hover,*/
+/*.navbar-inverse .navbar-nav>li.active>a:focus {*/
+/*  background-color: teal;*/
+/*  color: #fff; !* White color *!*/
+/*}*/
+/*!* Active top-level menu items with a complementary color *!*/
+/*.navbar-inverse .navbar-nav>li.active>a,*/
+/*.navbar-inverse .navbar-nav>li.active>a:hover,*/
+/*.navbar-inverse .navbar-nav>li.active>a:focus {*/
+/*  background-color: teal;*/
+/*  color: #fff; !* White color for top-level menu items *!*/
+/*}*/
+/*!* Active dropdown menu items with a complementary color *!*/
+/*.navbar-inverse .navbar-nav>li.dropdown.active>a,*/
+/*.navbar-inverse .navbar-nav>li.dropdown.active>a:hover,*/
+/*.navbar-inverse .navbar-nav>li.dropdown.active>a:focus {*/
+/*  background-color: teal;*/
+/*  color: #fff; !* White color for dropdown menu items *!*/
+/*}*/
+/* Active top-level menu items with a complementary color */
+/* Remove the black line under "Recipe Book" in the collapsed navbar */
+
+/*.navbar-inverse .navbar-nav>li.active>a,*/
+/*.navbar-inverse .navbar-nav>li.active>a:hover,*/
+/*.navbar-inverse .navbar-nav>li.active>a:focus {*/
+/*  background-color: #f0f0f0;;*/
+/*  color: coral; !* White color for top-level menu items *!*/
+/*}*/
+
+/*!* Active dropdown menu items with a complementary color *!*/
+/*.navbar-inverse .navbar-nav>li.dropdown.active>a,*/
+/*.navbar-inverse .navbar-nav>li.dropdown.active>a:hover,*/
+/*.navbar-inverse .navbar-nav>li.dropdown.active>a:focus*/
+/*{*/
+/*  border-bottom: none; !* Remove the bottom border *!*/
+/*}*/
+/*.navbar-inverse .navbar-nav>li.dropdown.open>a {*/
+/*  background-color: #f0f0f0;;*/
+/*  color: coral; !* White color for dropdown menu items *!*/
+/*  border-bottom: none;*/
+/*}*/
+/*!*.navbar-inverse .navbar-nav>li.dropdown .dropdown-menu li a {*!*/
+/*!*  color: teal; !* Change to your desired font color *!*!*/
+/*!*}*!*/
+/*.navbar-inverse .navbar-nav>li>a {*/
+/*  border-bottom: none; !* Remove the bottom border *!*/
+/*}*/
+/*!* Remove black background and border from collapsed navbar *!*/
+/*.navbar-inverse .navbar-toggle {*/
+/*  background-color: transparent; !* Remove background color *!*/
+/*  border-color: transparent; !* Remove border color *!*/
+/*  border-bottom: none;*/
+/*}*/
+
+/*!* Remove black background from collapsed navbar when open *!*/
+/*.navbar-inverse .navbar-collapse.collapse.in {*/
+/*  background-color: transparent; !* Remove background color when open *!*/
+/*}*/
+/*!* Remove the black line under the active navbar-brand link *!*/
+/*!*.navbar-inverse .navbar-nav>li.active>a.navbar-brand {*!*/
+/*!*  box-shadow: none !important; !* Remove the box shadow *!*!*/
+/*!*  border-bottom: none !important;*!*/
+/*!*  border-color: transparent !important;*!*/
+/*!*}*!*/
+
+/*!* Change the border color of .navbar-collapse and .navbar-form *!*/
+/*.navbar-inverse .navbar-collapse,*/
+/*.navbar-inverse .navbar-form {*/
+/*  border-color: #e4e5ea !important; !* Replace 'your-desired-color' with your preferred color value *!*/
+/*}*/
+/**/
+/**/
+/* Navbar background color */
+.navbar-inverse {
+  background-color: coral;
+  border: none;
+}
+
+/* Navbar brand text color */
+.navbar-inverse .navbar-brand {
+  color: #f0f0f0; /* Off-white color */
+}
+
+/* Inactive links (off-white font) */
+.navbar-inverse .navbar-nav>li>a {
+  color: #f0f0f0; /* Off-white color */
+}
+
+/* Active top-level menu items with a complementary color */
+.navbar-inverse .navbar-nav>li.active>a,
+.navbar-inverse .navbar-nav>li.active>a:hover,
+.navbar-inverse .navbar-nav>li.active>a:focus {
+  background-color: #f0f0f0;
+  color: coral; /* White color for top-level menu items */
+  border-bottom: none; /* Remove the bottom border */
+}
+
+/* Active dropdown menu items with a complementary color */
+.navbar-inverse .navbar-nav>li.dropdown.active>a,
+.navbar-inverse .navbar-nav>li.dropdown.active>a:hover,
+.navbar-inverse .navbar-nav>li.dropdown.active>a:focus,
+.navbar-inverse .navbar-nav>li.dropdown.open>a {
+  background-color: #f0f0f0;
+  color: coral; /* White color for dropdown menu items */
+  /*border-bottom: none; !* Remove the bottom border *!*/
+}
+
+/* Remove black background and border from collapsed navbar */
+.navbar-inverse .navbar-toggle {
+  background-color: transparent; /* Remove background color */
+  border-color: transparent; /* Remove border color */
+  border-bottom: none; /* Remove the bottom border */
+}
+
+/* Remove black background from collapsed navbar when open */
+.navbar-inverse .navbar-collapse.collapse.in {
+  background-color: transparent; /* Remove background color when open */
+}
+
+/* Remove the black line under the active navbar-brand link */
+.navbar-inverse .navbar-nav>li.active>a.navbar-brand {
+  box-shadow: none !important; /* Remove the box shadow */
+  border-bottom: none !important; /* Remove the bottom border */
+  border-color: transparent !important;
+}
+
+/* Change the border color of .navbar-collapse and .navbar-form */
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #e4e5ea !important; /* Replace 'your-desired-color' with your preferred color value */
+}
+
+
+
+
+
